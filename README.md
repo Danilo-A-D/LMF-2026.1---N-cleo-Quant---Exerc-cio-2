@@ -2,6 +2,7 @@ EXERCÍCIO 2 - NÚCLEO QUANT LMF (2026.1)
 ========================
 
 O QUE FOI IMPLEMENTADO
+
 O presente trabalho é um relatório completo de risco do portfólio composto pelos ativos PETR4.SA (Petrobras), VALE3.SA (Vale), ITUB4.SA (Itaú Unibanco) e WEGE3.SA (WEG S.A.), com BOVA11.SA (ETF Ibovespa) como benchmark de mercado, cobrindo o período de 2019 a 2024 — janela que inclui a crise do COVID-19 e o ciclo de alta de juros no Brasil.
 O projeto foi dividido em 4 tarefas, dadas as instruções da atividade, sendo elas:
 1- Value at Risk (VaR) -> cálculo dos log-retornos diários, posição igualmente distribuída de R$ 100.000 entre os 4 ativos e estimativa do VaR 95% e 99% por três métodos: Histórico (percentil empírico), Paramétrico (distribuição Normal) e Monte Carlo (50.000 simulações)
@@ -10,6 +11,7 @@ O projeto foi dividido em 4 tarefas, dadas as instruções da atividade, sendo e
 4- Otimização de Markowitz e Fronteira Eficiente -> cálculo do vetor de retornos médios anualizados e da matriz de covariância anualizada, simulação de Monte Carlo com 10.000 portfólios de pesos aleatórios, cálculo do Índice de Sharpe para cada portfólio, identificação do portfólio de máximo Sharpe e plotagem da fronteira eficiente com destaque para o portfólio equally-weighted e o portfólio ótimo
 
 ========================
+
 GUIA DE EXECUÇÃO
 
 1. Baixe o arquivo 'relatorio_risco.py'
@@ -17,6 +19,7 @@ GUIA DE EXECUÇÃO
 3. Abra o arquivo no VS Code e clique em Run no canto superior direito. Os resultados de cada tarefa aparecerão no terminal e os dois gráficos (drawdown.png e fronteira_eficiente.png) serão salvos automaticamente na mesma pasta do script.
 
 ========================
+
 CONCLUSÕES
 
 VALUE AT RISK (VaR)
